@@ -19,6 +19,9 @@ body{
     background-color: #00373e;
     color: #cafff2;
 }
+a{
+    text-decoration: none;
+}
 /* text-color */
 .text-green{
     color: #00373e;
@@ -32,6 +35,9 @@ body{
 }
 .bg-orange-light{
     background-color: #fbd3b6;
+}
+.bg-orange-light-2{
+    background-color: #fbad9c;
 }
 /* font */
 .f-pacifico{
@@ -47,14 +53,26 @@ body{
 .fs-18{
     font-size: 18px;
 }
+.fs-14{
+    font-size: 14px;
+}
+.fs-40{
+    font-size: 40px;
+}
 /* padding */
 .p-14-20{
     padding: 14px 20px;
 }
-/* header */
-.header{
+.p-16-32{
+    padding: 16px 32px;
+}
+.p-12-20{
+    padding: 12px 20px;
+}
+.px-7p{
     padding: 0 7%;
 }
+/* header */
 /* header-button-menu */
 .togglee{
     position: absolute;
@@ -278,6 +296,9 @@ input:checked ~ .togglee .middle_line{
     }
     .shape-right{
         justify-content: center;
+    }
+    .fs-56{
+        font-size: 56px;
     }
 }
 @media (min-width:1200px){
