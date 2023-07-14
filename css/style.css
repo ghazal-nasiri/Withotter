@@ -29,6 +29,9 @@ a{
 .text-green-light{
     color: #cafff2;
 }
+.text-brown{
+    color: #fbd3b6;
+}
 /* background-color */
 .bg-green{
     background-color: #00373e;
@@ -38,6 +41,15 @@ a{
 }
 .bg-orange-light-2{
     background-color: #fbad9c;
+}
+.bg-green-light{
+    background-color: #94954c;
+}
+.bg-pink{
+    background-color: #fbad9c;
+}
+.bg-brown-light{
+    background-color: #ac9e88;
 }
 /* font */
 .f-pacifico{
@@ -59,6 +71,9 @@ a{
 .fs-40{
     font-size: 40px;
 }
+.fs-20{
+    font-size: 20px;
+}
 /* padding */
 .p-14-20{
     padding: 14px 20px;
@@ -70,7 +85,11 @@ a{
     padding: 12px 20px;
 }
 .px-7p{
-    padding: 0 7%;
+    padding: 0 5%;
+}
+/* height */
+.h-1p7{
+    height: 1.7em;
 }
 /* header */
 /* header-button-menu */
@@ -262,6 +281,10 @@ input:checked ~ .togglee .middle_line{
        
         
     }
+
+    .flex-md-row{
+        flex-direction: row;
+    }
 }
 @media (min-width:992px){
     .h-section2{
@@ -300,6 +323,12 @@ input:checked ~ .togglee .middle_line{
     .fs-56{
         font-size: 56px;
     }
+    .fs-lg-56{
+        font-size: 56px;
+    }
+    .fs-lg-24{
+        font-size: 24px;
+    }
 }
 @media (min-width:1200px){
     .shape1{
@@ -324,8 +353,22 @@ input:checked ~ .togglee .middle_line{
         width: 320px;
         height: 320px;
     }
+    .h-lg-1p4{
+        height: 1.4em;
+       
+    }
     
 }
+.carousel .card-slide{
+        margin: 10px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25px;
+        border-radius: 25px;
+}
+
 
 
 
