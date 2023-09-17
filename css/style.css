@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'inter';
-    src: url(/font/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(font/Inter-VariableFont_slnt\,wght.ttf);
 }
 @font-face {
     font-family: 'pacifico';
-    src: url(/font/Pacifico-Regular.ttf);
+    src: url(font/Pacifico-Regular.ttf);
 }
 @import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&display=swap');
 *{
@@ -188,7 +188,7 @@ input:checked ~ .togglee .middle_line{
     margin-bottom: -10%;
     width: 150px;
     height: 150px;
-    background-image: url(/assets/img/642730c1660cb9b9912fedbe_hero2.webp);
+    background-image: url(assets/img/642730c1660cb9b9912fedbe_hero2.webp);
     background-position: center;
     background-size: cover;
     margin-left: 20%;
@@ -199,7 +199,7 @@ input:checked ~ .togglee .middle_line{
 
     width: 160px;
     height: 160px;
-    background-image: url(/assets/img/642730c1f21280f3e518c776_hero1.webp);
+    background-image: url(assets/img/642730c1f21280f3e518c776_hero1.webp);
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -217,7 +217,7 @@ input:checked ~ .togglee .middle_line{
     height: 145px;
     margin-bottom: -22%;
     margin-left: -25%;
-    background-image: url(/assets/img/642dadde76f1bbb7ff809caa_Playing_Colored_01\ 1.webp);
+    background-image: url(assets/img/642dadde76f1bbb7ff809caa_Playing_Colored_01\ 1.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
